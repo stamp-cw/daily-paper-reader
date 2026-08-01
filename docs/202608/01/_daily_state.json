@@ -1,0 +1,89 @@
+{
+  "date": "20260801",
+  "date_label": "",
+  "generated_at": "2026-08-01 21:00:18 UTC",
+  "recommend_exists": true,
+  "run_count": 1,
+  "papers": [
+    {
+      "paper_id": "2607.22162v1",
+      "route": "202608/01/2607.22162v1-elliptical-regularized-hotelling-tests-for-high-dimensional-change-point-detection",
+      "title": "Elliptical Regularized Hotelling Tests for High-Dimensional Change-Point Detection",
+      "section": "deep",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "landslide"
+        }
+      ],
+      "score": 8.0,
+      "evidence": "提出高维序列变点检测的正则化Hotelling检验，可直接用于日位移异常检测",
+      "first_seen_at": "2026-08-01 21:00:18 UTC",
+      "updated_at": "2026-08-01 21:00:18 UTC"
+    },
+    {
+      "paper_id": "2607.25214v1",
+      "route": "202608/01/2607.25214v1-visibility-graph-based-characterization-of-extreme-values-in-time-series",
+      "title": "Visibility graph-based characterization of extreme values in time series",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "landslide"
+        }
+      ],
+      "score": 7.0,
+      "evidence": "基于可视图的极值时间序列特征化方法，可直接用于日位移异常识别",
+      "first_seen_at": "2026-08-01 21:00:18 UTC",
+      "updated_at": "2026-08-01 21:00:18 UTC"
+    },
+    {
+      "paper_id": "2607.24180v1",
+      "route": "202608/01/2607.24180v1-monitoring-post-disaster-urban-recovery-using-high-resolution-sar-time-series-and-unsupervised-learning-evidence-from-the-2023-trkiye-syria-earthquake",
+      "title": "Monitoring Post-Disaster Urban Recovery Using High-Resolution SAR Time Series and Unsupervised Learning: Evidence from the 2023 Türkiye-Syria Earthquake",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "landslide"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "利用SAR时间序列与无监督异常检测进行地表变化监测",
+      "first_seen_at": "2026-08-01 21:00:18 UTC",
+      "updated_at": "2026-08-01 21:00:18 UTC"
+    },
+    {
+      "paper_id": "2607.27969v1",
+      "route": "202608/01/2607.27969v1-footprintnet-state-transition-guided-dynamic-footprint-learning-for-multi-temporal-remote-sensing-change-detection",
+      "title": "FootprintNet: State-Transition-Guided Dynamic Footprint Learning for Multi-temporal Remote Sensing Change Detection",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "landslide"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "多时相遥感变化检测方法，可迁移用于滑坡地表位移监测",
+      "first_seen_at": "2026-08-01 21:00:18 UTC",
+      "updated_at": "2026-08-01 21:00:18 UTC"
+    },
+    {
+      "paper_id": "2607.28401v1",
+      "route": "202608/01/2607.28401v1-large-scale-cross-regional-remote-sensing-flood-monitoring-framework-for-operative-mapping-and-impact-analysis",
+      "title": "Large scale cross-regional remote sensing flood monitoring framework for operative mapping and impact analysis",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "landslide"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "融合SAR、多光谱与DEM的遥感灾害监测框架可迁移至滑坡监测",
+      "first_seen_at": "2026-08-01 21:00:18 UTC",
+      "updated_at": "2026-08-01 21:00:18 UTC"
+    }
+  ]
+}
