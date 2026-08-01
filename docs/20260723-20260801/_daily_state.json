@@ -1,8 +1,137 @@
 {
   "date": "20260723-20260801",
   "date_label": "2026-07-23 ~ 2026-08-01",
-  "generated_at": "2026-08-01 05:24:26 UTC",
+  "generated_at": "2026-08-01 05:48:31 UTC",
   "recommend_exists": true,
-  "run_count": 1,
-  "papers": []
+  "run_count": 2,
+  "papers": [
+    {
+      "paper_id": "2607.26481v1",
+      "route": "20260723-20260801/2607.26481v1-conformal-changepoint-localization-and-root-cause-analysis-with-corrupted-observations",
+      "title": "Conformal Changepoint Localization and Root Cause Analysis with Corrupted Observations",
+      "section": "deep",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "landslide"
+        }
+      ],
+      "score": 8.0,
+      "evidence": "具有可靠性保证的共形变点检测，适用于监测与早期预警",
+      "first_seen_at": "2026-08-01 05:48:31 UTC",
+      "updated_at": "2026-08-01 05:48:31 UTC"
+    },
+    {
+      "paper_id": "2607.20828v1",
+      "route": "20260723-20260801/2607.20828v1-high-dimensional-change-point-analysis-for-temporally-dependent-data",
+      "title": "High-Dimensional Change Point Analysis for Temporally Dependent Data",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "landslide"
+        }
+      ],
+      "score": 7.0,
+      "evidence": "面向时间相依高维时间序列的自适应变点检测方法，可应用于每日位移异常预警",
+      "first_seen_at": "2026-08-01 05:48:31 UTC",
+      "updated_at": "2026-08-01 05:48:31 UTC"
+    },
+    {
+      "paper_id": "2607.21200v1",
+      "route": "20260723-20260801/2607.21200v1-transformer-based-diffusion-models-for-hydrological-time-series-probabilistic-imputation-and-forecasting",
+      "title": "Transformer-based Diffusion models for Hydrological Time Series Probabilistic Imputation and Forecasting",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "landslide"
+        }
+      ],
+      "score": 7.0,
+      "evidence": "水文时间序列概率插补与预测方法可应用于每日位移监测数据",
+      "first_seen_at": "2026-08-01 05:48:31 UTC",
+      "updated_at": "2026-08-01 05:48:31 UTC"
+    },
+    {
+      "paper_id": "2607.22755v1",
+      "route": "20260723-20260801/2607.22755v1-pyaldic-a-python-implementation-of-augmented-lagrangian-digital-image-correlation-with-a-gui-adaptive-meshing-and-mask-aware-subset-splitting",
+      "title": "pyALDIC: A Python Implementation of Augmented Lagrangian Digital Image Correlation with a GUI, Adaptive Meshing, and Mask-Aware Subset Splitting",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "landslide"
+        }
+      ],
+      "score": 7.0,
+      "evidence": "数字图像相关测量全场位移与应变，可迁移应用于基于摄像头的滑坡每日位移监测。",
+      "first_seen_at": "2026-08-01 05:48:31 UTC",
+      "updated_at": "2026-08-01 05:48:31 UTC"
+    },
+    {
+      "paper_id": "2607.23237v1",
+      "route": "20260723-20260801/2607.23237v1-context-aware-concept-distillation-for-trustworthy-flood-prediction",
+      "title": "Context-Aware Concept Distillation for Trustworthy Flood Prediction",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "landslide"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "面向可信灾害预警的可解释深度学习框架，可应用于滑坡位移预警",
+      "first_seen_at": "2026-08-01 05:48:31 UTC",
+      "updated_at": "2026-08-01 05:48:31 UTC"
+    },
+    {
+      "paper_id": "2607.25815v1",
+      "route": "20260723-20260801/2607.25815v1-freq-remotevar-next-frequency-autoregressive-modeling-for-remote-sensing-change-detection",
+      "title": "Freq-RemoteVAR: Next-Frequency Autoregressive Modeling for Remote Sensing Change Detection",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "landslide"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "遥感变化检测方法可用于滑坡地表变化监测",
+      "first_seen_at": "2026-08-01 05:48:31 UTC",
+      "updated_at": "2026-08-01 05:48:31 UTC"
+    },
+    {
+      "paper_id": "2607.26581v1",
+      "route": "20260723-20260801/2607.26581v1-benchmarking-convlstm-for-one-day-ahead-imdaa-rainfall-field-prediction-across-four-indian-cities",
+      "title": "Benchmarking ConvLSTM for One-Day-Ahead IMDAA Rainfall-Field Prediction across Four Indian Cities",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "landslide"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "面向早期预警的逐日时空预测ConvLSTM基准评测",
+      "first_seen_at": "2026-08-01 05:48:31 UTC",
+      "updated_at": "2026-08-01 05:48:31 UTC"
+    },
+    {
+      "paper_id": "2607.27821v1",
+      "route": "20260723-20260801/2607.27821v1-earthquake-detection-using-benfords-law",
+      "title": "Earthquake Detection Using Benford's Law",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "landslide"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "统计地震事件检测方法可迁移至传感器滑坡监测",
+      "first_seen_at": "2026-08-01 05:48:31 UTC",
+      "updated_at": "2026-08-01 05:48:31 UTC"
+    }
+  ]
 }

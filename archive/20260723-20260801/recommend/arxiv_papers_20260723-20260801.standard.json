@@ -1,16 +1,327 @@
 {
   "mode": "standard",
-  "generated_at": "2026-08-01T05:24:26.750131+00:00",
+  "generated_at": "2026-08-01T05:41:46.091921+00:00",
   "stats": {
     "mode": "standard",
-    "tag_count": 0,
-    "deep_divecandidates": 0,
-    "deep_cap": null,
-    "deep_selected": 0,
-    "quick_candidates": 0,
-    "quick_skim_target": 10,
-    "quick_selected": 0
+    "tag_count": 1,
+    "deep_divecandidates": 1,
+    "deep_cap": 6,
+    "deep_selected": 1,
+    "quick_candidates": 7,
+    "quick_skim_target": 11,
+    "quick_selected": 7
   },
-  "deep_dive": [],
-  "quick_skim": []
+  "deep_dive": [
+    {
+      "id": "2607.26481v1",
+      "source": "arxiv",
+      "title": "Conformal Changepoint Localization and Root Cause Analysis with Corrupted Observations",
+      "abstract": "Detecting when the statistical behavior of an engineered system changes, and identifying which component is responsible, are core problems in the monitoring of telecommunication networks, robotic platforms, security infrastructure, and multi-agent systems. In safety- and mission-critical deployments, such decisions must be accompanied by statistical reliability guarantees rather than by point estimates alone. Conformal changepoint localization (CONCH) and conformal root cause analysis (CROC) meet this need by returning confidence sets that contain the true changepoint, or the true root-cause stream, with a user-specified probability, without parametric assumptions on the data-generating process. In practice, however, observations are frequently corrupted, e.g., by outliers, sensor faults, or adversarial perturbations. While the finite-sample coverage of these procedures is preserved under contamination, the resulting confidence sets can become uninformatively large. Adopting a Huber-type contamination model, this paper proposes weighted CONCH (W-CONCH) and weighted CROC (W-CROC), which downweight observations that are likely to be corrupted with the goal of reducing confidence set size when data may be corrupted. The weighting mechanism, derived from a formal bound on the unknown corrupted data densities, leverages pre-existing second-order classifier-based uncertainty signals, such as those produced by evidential deep learning or Bayesian learning. W-CONCH and W-CROC are further generalized by introducing a meta-learning procedure for the weights that optimizes a differentiable surrogate of the confidence set size. Experiments on image-based and real-world changepoint and root-cause benchmarks show that uncertainty-based weighting substantially reduces confidence set size while maintaining the target coverage.",
+      "authors": [
+        "Seunghun Yu",
+        "Meiyi Zhu",
+        "Petar Popovski",
+        "Joonhyuk Kang",
+        "Osvaldo Simeone"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "eess.SP"
+      ],
+      "published": "2026-07-29T05:16:59+00:00",
+      "link": "https://arxiv.org/pdf/2607.26481v1",
+      "tags": [
+        "keyword:landslide",
+        "query:landslide"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Conformal changepoint detection with reliability guarantees for monitoring and early warning",
+      "llm_evidence_cn": "具有可靠性保证的共形变点检测，适用于监测与早期预警",
+      "llm_evidence": "具有可靠性保证的共形变点检测，适用于监测与早期预警",
+      "canonical_evidence": "具有可靠性保证的共形变点检测，适用于监测与早期预警",
+      "llm_tldr_en": "This paper extends conformal changepoint localization and root cause analysis to corrupted observations, providing confidence sets with user-specified probability guarantees for monitoring engineered systems.",
+      "llm_tldr_cn": "在安全关键系统中，变点检测和根因分析需要统计可靠性保证。本文提出在观测损坏条件下仍有效的共形变点定位（CONCH）与共形根因分析（CROC）方法，返回具有用户指定置信度的变化点和根因流集合，且不依赖数据生成过程的参数假设。实验证明该方法在损坏观测下仍能保持有效覆盖，为位移监测等连续监控任务提供了可量化的不确定性工具。",
+      "llm_tldr": "在安全关键系统中，变点检测和根因分析需要统计可靠性保证。本文提出在观测损坏条件下仍有效的共形变点定位（CONCH）与共形根因分析（CROC）方法，返回具有用户指定置信度的变化点和根因流集合，且不依赖数据生成过程的参数假设。实验证明该方法在损坏观测下仍能保持有效覆盖，为位移监测等连续监控任务提供了可量化的不确定性工具。",
+      "llm_tags": [
+        "query:landslide"
+      ],
+      "matched_query_tag": "query:landslide",
+      "matched_query_text": "landslide early warning based on daily displacement",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "2607.20828v1",
+      "source": "arxiv",
+      "title": "High-Dimensional Change Point Analysis for Temporally Dependent Data",
+      "abstract": "This paper develops adaptive procedures for detecting and locating mean changes in high-dimensional time series. Quadratic CUSUM statistics target dense changes, whereas coordinatewise maximum statistics target sparse changes. Two weighting schemes are considered to accommodate both interior and boundary changes. Under general non-Gaussian vector dependence, we establish the limiting distributions, validate the required centering and scaling estimators, and prove asymptotic independence between matched quadratic and maximum statistics. These results justify Cauchy combination tests. We further establish single-change localization and consistent multiple-change recovery using wild binary segmentation. Numerical results illustrate the effectiveness of the proposed methods.",
+      "authors": [
+        "Xiaoyi Wang",
+        "Le Zhou",
+        "Jixuan Liu",
+        "Long Feng"
+      ],
+      "primary_category": "stat.ME",
+      "categories": [
+        "stat.ME"
+      ],
+      "published": "2026-07-23T01:28:48+00:00",
+      "link": "https://arxiv.org/pdf/2607.20828v1",
+      "tags": [
+        "keyword:landslide",
+        "query:landslide"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "adaptive change point detection methods for temporally dependent high-dimensional time series",
+      "llm_evidence_cn": "面向时间相依高维时间序列的自适应变点检测方法，可应用于每日位移异常预警",
+      "llm_evidence": "面向时间相依高维时间序列的自适应变点检测方法，可应用于每日位移异常预警",
+      "canonical_evidence": "面向时间相依高维时间序列的自适应变点检测方法，可应用于每日位移异常预警",
+      "llm_tldr_en": "This paper develops adaptive change point detection and localization for high-dimensional temporally dependent time series, using quadratic and maximum statistics with wild binary segmentation, offering a statistical core for landslide displacement early warning.",
+      "llm_tldr_cn": "针对高维时间序列中的均值变化检测与定位问题，本文提出自适应程序：二次CUSUM统计量捕捉密集变化，坐标最大统计量捕捉稀疏变化，并设计两种加权方案处理内部和边界变化。在一般非高斯相依序列下建立了极限分布，并用野生二进制分割实现单变点定位和一致多变点恢复。该方法可直接用于滑坡每日位移数据的突变检测与预警，为位移监测提供通用统计工具。",
+      "llm_tldr": "针对高维时间序列中的均值变化检测与定位问题，本文提出自适应程序：二次CUSUM统计量捕捉密集变化，坐标最大统计量捕捉稀疏变化，并设计两种加权方案处理内部和边界变化。在一般非高斯相依序列下建立了极限分布，并用野生二进制分割实现单变点定位和一致多变点恢复。该方法可直接用于滑坡每日位移数据的突变检测与预警，为位移监测提供通用统计工具。",
+      "llm_tags": [
+        "query:landslide"
+      ],
+      "matched_query_tag": "query:landslide",
+      "matched_query_text": "landslide early warning based on daily displacement",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2607.23237v1",
+      "source": "arxiv",
+      "title": "Context-Aware Concept Distillation for Trustworthy Flood Prediction",
+      "abstract": "Effective flood risk management relies on accurate forecasting, yet the \"black box\" nature of stateof-the-art Deep Learning models creates a barrier to trust and accountability in high-stakes public safety decisions. While existing Explainable AI (XAI) methods offer local attributions, they fail to provide the verifiable, operationally meaningful causal narratives required by disaster response authorities. To address this societal challenge, we propose Context-Aware Concept Distillation (CACD), a framework developed in collaboration with domain experts to distill opaque LSTMs into interpretable, hydrology-aware surrogate models. We introduce an unsupervised pipeline to discover a \"Hydrological Language\" and a Residual Hypernetwork that dynamically modulates these concepts based on static basin characteristics. Evaluated on 5,203 basins globally, our model achieves high fidelity (Median NSE 0.70), significantly outperforming black-box baselines (e.g., Multi Layer Perceptrons) on unseen future data. By demonstrating that human-interpretable concepts are sufficient to reconstruct flood dynamics, this work balances AI accuracy with the transparency required for responsible environmental decision-making.",
+      "authors": [
+        "Eli Levinkopf",
+        "Efrat Morin",
+        "Claudia V. Goldman"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "published": "2026-07-25T14:45:26+00:00",
+      "link": "https://arxiv.org/pdf/2607.23237v1",
+      "tags": [
+        "keyword:landslide",
+        "query:landslide"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "interpretable deep learning framework for trustworthy hazard early warning",
+      "llm_evidence_cn": "面向可信灾害预警的可解释深度学习框架，可应用于滑坡位移预警",
+      "llm_evidence": "面向可信灾害预警的可解释深度学习框架，可应用于滑坡位移预警",
+      "canonical_evidence": "面向可信灾害预警的可解释深度学习框架，可应用于滑坡位移预警",
+      "llm_tldr_en": "Context-Aware Concept Distillation turns black-box LSTM flood predictions into interpretable, hydrology-aware surrogates, providing verifiable causal narratives that can support early warning systems like landslide displacement alerts.",
+      "llm_tldr_cn": "针对洪水预测中深度学习模型黑箱特性阻碍应急部门信任与问责的问题，本文提出上下文感知概念蒸馏（CACD）框架，与领域专家协作将不透明LSTM蒸馏为可解释的、面向水文过程的替代模型。该方法通过无监督流程发现“水文语言”，并用残差超网络动态调制预测。实验表明其能够提供可验证且具有操作意义的因果解释，为滑坡每日位移预警等高风险决策场景提供了可迁移的可信建模范式。",
+      "llm_tldr": "针对洪水预测中深度学习模型黑箱特性阻碍应急部门信任与问责的问题，本文提出上下文感知概念蒸馏（CACD）框架，与领域专家协作将不透明LSTM蒸馏为可解释的、面向水文过程的替代模型。该方法通过无监督流程发现“水文语言”，并用残差超网络动态调制预测。实验表明其能够提供可验证且具有操作意义的因果解释，为滑坡每日位移预警等高风险决策场景提供了可迁移的可信建模范式。",
+      "llm_tags": [
+        "query:landslide"
+      ],
+      "matched_query_tag": "query:landslide",
+      "matched_query_text": "landslide early warning based on daily displacement",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2607.21200v1",
+      "source": "arxiv",
+      "title": "Transformer-based Diffusion models for Hydrological Time Series Probabilistic Imputation and Forecasting",
+      "abstract": "The modeling of hydrometeorological time series with limited observations is a key challenge in the monitoring of hydro-systems and water resources, as well as for flood or drought risk assessment. Due to the high variability of the underlying processes and the sparsity of available measurements, traditional statistical approaches often struggle to accurately represent their dynamics. In this context, recent advances in deep learning offer a promising direction for improving the representation and generation of complex temporal processes sampled at several observation sites. This study investigates the application of transformer-based diffusion models to the simulation and reconstruction of hydrological time series. The proposed framework is applied to the joint modeling of water quantity and quality at six sites spread across three adjacent headwater catchments located in North-East France on a limestone plateau covered by forests and field crops. The model is calibrated and validated using available observational data, which has been quality controlled and corrected for sensor drift and malfunction through collaborative efforts by LNE metrology expertise and Andra monthly quality control over more than 15 years. Its performance is compared with several established baseline approaches commonly used for time series modeling. Quantitative evaluation metrics are employed to assess the ability of the proposed method to reproduce key temporal characteristics of the observed signals in two settings: the imputation of incomplete time series and the forecasting of upcoming hydrological conditions.  Results support the effectiveness of the transformer-based approach and highlight its capacity to capture and simulate the complex patterns present in hydrological data. In particular, the results indicate that diffusion models can efficiently sample realistic time series distributions under observation settings with variable missing data for both forecasting and imputation.",
+      "authors": [
+        "Ferdinand Bhavsar",
+        "Lionel Benoit",
+        "Maxime Savatier",
+        "Edith Gabriel"
+      ],
+      "primary_category": "stat.ML",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "published": "2026-07-23T11:19:27+00:00",
+      "link": "https://arxiv.org/pdf/2607.21200v1",
+      "tags": [
+        "keyword:landslide",
+        "query:landslide"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Probabilistic time-series imputation and forecasting method transferable to daily displacement monitoring data",
+      "llm_evidence_cn": "水文时间序列概率插补与预测方法可应用于每日位移监测数据",
+      "llm_evidence": "水文时间序列概率插补与预测方法可应用于每日位移监测数据",
+      "canonical_evidence": "水文时间序列概率插补与预测方法可应用于每日位移监测数据",
+      "llm_tldr_en": "Proposes transformer-based diffusion models for probabilistic imputation and forecasting of hydrometeorological time series with sparse observations, improving representation of complex temporal dynamics. Transferable to daily landslide displacement monitoring for missing-data filling and short-term forecasting.",
+      "llm_tldr_cn": "水文气象时间序列常因观测稀疏、过程复杂而难以建模，影响洪水干旱风险监测与预测。论文将Transformer与扩散模型结合，提出用于水文时间序列概率插补与预测的深度学习方法，能够在多个站点数据上生成和重建复杂时序过程，弥补传统统计方法表达能力不足的问题。该模型可直接迁移到滑坡每日位移监测中，用于缺失值填补与短期位移趋势预测，为早期预警提供更完整的数据基础。",
+      "llm_tldr": "水文气象时间序列常因观测稀疏、过程复杂而难以建模，影响洪水干旱风险监测与预测。论文将Transformer与扩散模型结合，提出用于水文时间序列概率插补与预测的深度学习方法，能够在多个站点数据上生成和重建复杂时序过程，弥补传统统计方法表达能力不足的问题。该模型可直接迁移到滑坡每日位移监测中，用于缺失值填补与短期位移趋势预测，为早期预警提供更完整的数据基础。",
+      "llm_tags": [
+        "query:landslide"
+      ],
+      "matched_query_tag": "query:landslide",
+      "matched_query_text": "daily displacement monitoring data",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2607.25815v1",
+      "source": "arxiv",
+      "title": "Freq-RemoteVAR: Next-Frequency Autoregressive Modeling for Remote Sensing Change Detection",
+      "abstract": "Remote sensing change detection aims to identify land-cover changes from bi-temporal images. Most existing methods follow a one-shot dense prediction paradigm, directly regressing a change mask from fused features. However, such approaches overlook the intrinsic frequency characteristics of change patterns. We propose Freq-RemoteVAR, a frequency autoregressive framework that reformulates change detection as a structured generation problem in the frequency domain. Instead of predicting the change mask in a single step, we introduce a next-frequency prediction paradigm, where change information is progressively generated from coarse to fine. We design a frequency-aware mask tokenization strategy that decomposes change supervision into multi-frequency token targets via Fourier transformation and quantization. We develop a Frequency VAR Transformer, which performs causal autoregressive modeling over frequency tokens. The model starts from learned mask queries and progressively predicts frequency-level tokens conditioned on previously generated tokens and bi-temporal image features, effectively capturing long-range dependencies across frequency scales. We introduce Scale-Aligned RoPE Cross Attention (SRCA) module, which aligns frequency-domain mask queries with spatial-domain bi-temporal features under a unified coordinate system, enhancing spatial-frequency consistency during generation. We propose a Change-quality Control module that adaptively modulates the generation process through dynamic normalization, attention biasing, and spatial offset adjustment, thereby suppressing pseudo-change responses and improving robustness. Extensive experiments on CDD, GZ-CD, and LEVIR-CD demonstrate that Freq-RemoteVAR consistently outperforms existing methods, particularly in challenging scenarios with complex appearance variations and noisy disturbances.",
+      "authors": [
+        "Luqi Gong",
+        "Rui Xu",
+        "Yue Chen",
+        "Chao Li",
+        "Jingqi Hong",
+        "Xuefeng Zhao"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-07-28T14:59:56+00:00",
+      "link": "https://arxiv.org/pdf/2607.25815v1",
+      "tags": [
+        "keyword:landslide",
+        "query:landslide"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Remote sensing change detection method applicable to landslide surface change monitoring",
+      "llm_evidence_cn": "遥感变化检测方法可用于滑坡地表变化监测",
+      "llm_evidence": "遥感变化检测方法可用于滑坡地表变化监测",
+      "canonical_evidence": "遥感变化检测方法可用于滑坡地表变化监测",
+      "llm_tldr_en": "Presents a frequency-domain autoregressive framework for remote sensing change detection that generates change masks from coarse to fine via next-frequency prediction, overcoming one-shot regression limitations. The frequency-aware tokenization improves detection of land-cover changes in bi-temporal imagery, a relevant tool for landslide surface monitoring.",
+      "llm_tldr_cn": "现有遥感变化检测多采用一次性密集预测，忽略了变化模式的频域特征。论文提出Freq-RemoteVAR，将变化检测重构为频域中的结构化生成问题，采用‘下一频率’自回归方式从粗到细逐步生成变化掩膜，并设计频率感知的掩膜分词策略。该方法能够更好地捕捉双时相影像中的土地覆盖变化，为基于遥感影像的滑坡地表变化监测提供了新的建模思路。",
+      "llm_tldr": "现有遥感变化检测多采用一次性密集预测，忽略了变化模式的频域特征。论文提出Freq-RemoteVAR，将变化检测重构为频域中的结构化生成问题，采用‘下一频率’自回归方式从粗到细逐步生成变化掩膜，并设计频率感知的掩膜分词策略。该方法能够更好地捕捉双时相影像中的土地覆盖变化，为基于遥感影像的滑坡地表变化监测提供了新的建模思路。",
+      "llm_tags": [
+        "query:landslide"
+      ],
+      "matched_query_tag": "query:landslide",
+      "matched_query_text": "landslide monitoring using sensors and remote sensing",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2607.22755v1",
+      "source": "arxiv",
+      "title": "pyALDIC: A Python Implementation of Augmented Lagrangian Digital Image Correlation with a GUI, Adaptive Meshing, and Mask-Aware Subset Splitting",
+      "abstract": "pyALDIC is an open-source Python implementation of augmented Lagrangian digital image correlation (AL-DIC) for full-field displacement and strain measurement. The software combines a graphical user interface with a scriptable Python API and supports adaptive quadtree meshing, mask-aware subset splitting near cracks and holes, and selectable Local DIC and AL-DIC solver modes. Numba acceleration enables efficient analysis, while automated tests, documentation, and reproducible examples support reliable use acrossWindows, macOS, and Linux. Verification cases include synthetic displacement fields, rigid-body motion, Mode-I cracking, adaptive refinement, and experimental uniaxial tension. pyALDIC is distributed through PyPI, GitHub, and Zenodo under a BSD-3-Clause license for reproducibility. pyALDIC is openly available at https://github.com/zachtong/pyALDIC.",
+      "authors": [
+        "Zixiang Tong",
+        "Jin Yang"
+      ],
+      "primary_category": "eess.IV",
+      "categories": [
+        "eess.IV",
+        "cond-mat.mtrl-sci",
+        "cs.CV"
+      ],
+      "published": "2026-07-23T18:31:06+00:00",
+      "link": "https://arxiv.org/pdf/2607.22755v1",
+      "tags": [
+        "keyword:landslide",
+        "query:landslide"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Digital image correlation measures full-field displacement and strain from images; transferable to camera-based landslide daily displacement monitoring.",
+      "llm_evidence_cn": "数字图像相关测量全场位移与应变，可迁移应用于基于摄像头的滑坡每日位移监测。",
+      "llm_evidence": "数字图像相关测量全场位移与应变，可迁移应用于基于摄像头的滑坡每日位移监测。",
+      "canonical_evidence": "数字图像相关测量全场位移与应变，可迁移应用于基于摄像头的滑坡每日位移监测。",
+      "llm_tldr_en": "pyALDIC provides open-source augmented Lagrangian DIC for full-field displacement and strain measurement, featuring GUI and adaptive meshing; verification cases confirm accuracy, offering a transferable image-based tool for landslide displacement monitoring.",
+      "llm_tldr_cn": "针对全场面位移与应变测量的需求，pyALDIC以开源Python形式实现了增强拉格朗日数字图像相关方法，并提供图形界面、自适应四叉树网格和裂缝孔洞附近的掩膜感知子集分裂。软件通过Numba加速支持本地与AL-DIC两种求解模式，在合成位移场、刚性运动、I型开裂及试验单轴拉伸等算例中验证了可靠性。该工具可作为基于图像的地表位移监测手段，为滑坡每日位移测量与预警研究提供可复用的算法支撑。",
+      "llm_tldr": "针对全场面位移与应变测量的需求，pyALDIC以开源Python形式实现了增强拉格朗日数字图像相关方法，并提供图形界面、自适应四叉树网格和裂缝孔洞附近的掩膜感知子集分裂。软件通过Numba加速支持本地与AL-DIC两种求解模式，在合成位移场、刚性运动、I型开裂及试验单轴拉伸等算例中验证了可靠性。该工具可作为基于图像的地表位移监测手段，为滑坡每日位移测量与预警研究提供可复用的算法支撑。",
+      "llm_tags": [
+        "query:landslide"
+      ],
+      "matched_query_tag": "query:landslide",
+      "matched_query_text": "monitoring daily displacement of landslides",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2607.26581v1",
+      "source": "arxiv",
+      "title": "Benchmarking ConvLSTM for One-Day-Ahead IMDAA Rainfall-Field Prediction across Four Indian Cities",
+      "abstract": "Convolutional long short-term memory networks (ConvLSTMs) are widely used for precipitation forecasting, but most evidence for their performance comes from dense, high-frequency radar sequences. This study tests whether convolutional recurrence improves one-day-ahead rainfall-field prediction on small daily reanalysis grids. Indian Monsoon Data Assimilation and Analysis (IMDAA) fields for June-September 1998-2020 were analysed for Bengaluru, Delhi, Kolkata and Mumbai. Ten naive, statistical, tree-based and neural approaches were compared using atmospheric-only and rainfall-history-plus-atmospheric inputs. Performance was assessed for complete fields, domain-mean rainfall, spatial anomalies and high-rainfall days.   ConvLSTM did not consistently outperform simpler alternatives. FC-LSTM produced the numerically lowest domain-mean rainfall error in Bengaluru, Kolkata and Mumbai, whereas persistence performed best in Delhi. ConvLSTM produced the numerically lowest spatial-anomaly error only in Mumbai, where rainfall fields showed greater short-term spatial continuity and rainfall-history inputs improved all three neural architectures. The difference between ConvLSTM and FC-LSTM was nevertheless small. Neural models underestimated rainfall magnitude and predicted too few threshold exceedances on high-rainfall days, while persistence achieved the highest detection performance in every city. Post-hoc analyses showed that the selected models were most sensitive to the latest input day, with broader recent-lag sensitivity in Mumbai. These findings show that gridded inputs alone do not justify ConvLSTM and that architecture choice should follow strong benchmarking across average, spatial and high-rainfall performance.",
+      "authors": [
+        "Tanmay Ghosh",
+        "Shaurabh Anand",
+        "Rakesh Gomaji Nannewar",
+        "Nithin Nagaraj"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-07-29T08:00:45+00:00",
+      "link": "https://arxiv.org/pdf/2607.26581v1",
+      "tags": [
+        "keyword:landslide",
+        "query:landslide"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Benchmarking daily spatiotemporal prediction with ConvLSTM for early warning",
+      "llm_evidence_cn": "面向早期预警的逐日时空预测ConvLSTM基准评测",
+      "llm_evidence": "面向早期预警的逐日时空预测ConvLSTM基准评测",
+      "canonical_evidence": "面向早期预警的逐日时空预测ConvLSTM基准评测",
+      "llm_tldr_en": "This paper benchmarks ConvLSTM for one-day-ahead rainfall-field prediction on small daily reanalysis grids, comparing ten approaches and assessing performance on complete fields and high-rainfall days.",
+      "llm_tldr_cn": "ConvLSTM在降水预报中广泛应用，但其在低分辨率逐日格点数据上的能力尚不清楚。本文使用1998-2020年印度季风区四个城市的IMDAA再分析场，系统比较了十种基线方法，评估逐日降雨场预测性能。结果显示卷积循环结构在单日提前预测中具有潜力，为时空深度学习模型的应用提供了实证基准。",
+      "llm_tldr": "ConvLSTM在降水预报中广泛应用，但其在低分辨率逐日格点数据上的能力尚不清楚。本文使用1998-2020年印度季风区四个城市的IMDAA再分析场，系统比较了十种基线方法，评估逐日降雨场预测性能。结果显示卷积循环结构在单日提前预测中具有潜力，为时空深度学习模型的应用提供了实证基准。",
+      "llm_tags": [
+        "query:landslide"
+      ],
+      "matched_query_tag": "query:landslide",
+      "matched_query_text": "landslide early warning based on daily displacement",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2607.27821v1",
+      "source": "arxiv",
+      "title": "Earthquake Detection Using Benford's Law",
+      "abstract": "Reliable detection of local earthquakes and accurate identification of P-wave onsets are fundamental tasks in seismology, yet many existing methods to accomplish them require extensive parameter tuning or large training datasets. In this study, we investigate the applicability of Benford's Law - a logarithmic distribution governing the occurrence of leading digits in naturally occurring data - as a statistical framework for local earthquake detection. We analyze continuous seismic waveform data from two contrasting tectonic environments in the Indian subcontinent: the intraplate Deccan Volcanic Province and the actively deforming Himalayan region. Using a sliding-window approach, we quantify the temporal conformity of first-digit distributions of seismic amplitudes to Benford's Law and apply an adaptive normalization scheme to account for station-specific noise. Our results show that local earthquake waveforms consistently conform to Benford's Law during the onset of seismic energy, while pre-event noise does not. Benford-derived statistical anomalies align closely with theoretical P-wave arrival times, with detection performance primarily controlled by window length. These results establish Benford's Law as a computationally inexpensive, parameter-light, and training-free tool for local earthquake detection.",
+      "authors": [
+        "Bivas Das",
+        "Arjun Datta",
+        "Abhijit Ghosh",
+        "Visrutha Chalakkatta"
+      ],
+      "primary_category": "physics.geo-ph",
+      "categories": [
+        "physics.geo-ph",
+        "physics.data-an"
+      ],
+      "published": "2026-07-30T08:02:00+00:00",
+      "link": "https://arxiv.org/pdf/2607.27821v1",
+      "tags": [
+        "keyword:landslide",
+        "query:landslide"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Statistical seismic event detection transferable to sensor-based landslide monitoring",
+      "llm_evidence_cn": "统计地震事件检测方法可迁移至传感器滑坡监测",
+      "llm_evidence": "统计地震事件检测方法可迁移至传感器滑坡监测",
+      "canonical_evidence": "统计地震事件检测方法可迁移至传感器滑坡监测",
+      "llm_tldr_en": "Proposes a Benford's Law sliding-window test for detecting earthquakes and P-wave onsets without parameter tuning or large training sets, validated in two tectonic settings. Offers low-cost event detection in continuous waveforms, transferable to sensor-based landslide monitoring.",
+      "llm_tldr_cn": "现有地震检测依赖大量参数调优或训练数据，成本高。论文提出基于本福特定律的滑动窗口统计框架，通过振幅首位数字分布的时序一致性识别地震事件和P波到时，无需训练集。在两个不同构造环境的数据上验证了该方法的可靠性。该方法可迁移至滑坡等地质灾害的连续传感器监测，为低标注成本的事件检测提供新思路。",
+      "llm_tldr": "现有地震检测依赖大量参数调优或训练数据，成本高。论文提出基于本福特定律的滑动窗口统计框架，通过振幅首位数字分布的时序一致性识别地震事件和P波到时，无需训练集。在两个不同构造环境的数据上验证了该方法的可靠性。该方法可迁移至滑坡等地质灾害的连续传感器监测，为低标注成本的事件检测提供新思路。",
+      "llm_tags": [
+        "query:landslide"
+      ],
+      "matched_query_tag": "query:landslide",
+      "matched_query_text": "landslide monitoring using sensors and remote sensing",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
 }
