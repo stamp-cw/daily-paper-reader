@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-20T20:36:50.811333+00:00",
-  "updated_date": "20260820",
+  "generated_at": "2026-08-21T20:28:23.416596+00:00",
+  "updated_date": "20260821",
   "carryover_days": 9,
   "tag_states": {
     "landslide": {
-      "updated_date": "20260820",
+      "updated_date": "20260821",
       "carryover_days": 9,
       "items": []
     }
